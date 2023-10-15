@@ -1,0 +1,7 @@
+torch==1.12.0
+torchvision==0.13.0
+pytorch-metric-learning==1.5.1
+numpy==1.19.4
+Pillow==9.2.0
+imageio==2.21.0
+tqdm==4.19.9
