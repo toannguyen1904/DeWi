@@ -33,5 +33,8 @@ Download the IP102 dataset from [this URL](https://drive.google.com/drive/folder
     After training each epoch, the validation and testing phases are automatically executed. The log files and checkpoint models are saved in the ```checkpoint_path```.
     Replace ```name = k[:]``` by ```name = k[7:]``` in ```utils/auto_load_resume``` if you want to training a model which is trained on multiple GPUs.
 
+## Acknowledgement
+Our source code is based on [Ung et al.](https://github.com/hieuung/Improving-Insect-Pest-Recognition-by-EnsemblingMultiple-Convolutional-Neural-Network-basedModels). Special thanks to them.
+
 ## Contact
 For any concerns, please contact Nguyen Thanh Binh (Associate Professor at University of Science Ho Chi Minh city) via ngtbinh@hcmus.edu.vn.
